@@ -10,12 +10,12 @@ import org.firstinspires.ftc.robotcore.external.navigation.AxesReference;
 import org.firstinspires.ftc.robotcore.external.navigation.Orientation;
 
 /**
- * Created by josh on 11/28/17.
+ * Created by Josh on 11/28/17.
  */
 
 public class CapstoneGyro {
 
-    //"Real" gyro
+    // "Real" gyro
     private BNO055IMU gyro;
 
     // State used for updating telemetry and getting angles
@@ -45,6 +45,4 @@ public class CapstoneGyro {
         angles = gyro.getAngularOrientation(AxesReference.INTRINSIC, AxesOrder.ZYX, AngleUnit.DEGREES);
         return angles.firstAngle;
     }
-
-
 }
