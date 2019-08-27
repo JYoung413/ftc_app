@@ -1,1 +1,1 @@
-Implementation of the FIRST Tech Challenge ftc_app(https://github.com/ftctechnh/ftc_app), used for development of robot application on android devices using android studio and Java, on my senior year capstone robot.
+Implementation of the FIRST Tech Challenge ftc_app(https://github.com/ftctechnh/ftc_app), used for development of robot applications on android devices using android studio and Java, on my senior year capstone robot.
